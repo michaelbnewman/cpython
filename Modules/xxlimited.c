@@ -633,7 +633,7 @@ xx_free(void *module)
     }
 }
 
-// Information that CPython uses to prevent loading incompatible extenstions
+// Information that CPython uses to prevent loading incompatible extensions
 PyABIInfo_VAR(abi_info);
 
 static PySlot xx_slots[] = {
