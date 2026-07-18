@@ -1553,10 +1553,10 @@ assignments.  Only attribute names specified in ``__slots__`` are allowed:
 .. doctest::
 
         >>> auto = Vehicle()
-        >>> auto.id_nubmer = 'VYE483814LQEX'
+        >>> auto.id_number = 'VYE483814LQEX'
         Traceback (most recent call last):
             ...
-        AttributeError: 'Vehicle' object has no attribute 'id_nubmer'
+        AttributeError: 'Vehicle' object has no attribute 'id_number'
 
 2. Helps create immutable objects where descriptors manage access to private
 attributes stored in ``__slots__``:
